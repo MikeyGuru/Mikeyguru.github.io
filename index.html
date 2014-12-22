@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <!--
 	Astral by HTML5 UP
@@ -56,18 +57,32 @@
 						<!-- Work -->
 							<article id="work" class="panel">
 								<header>
-									<h2>Work</h2>
+									<h2>Portfolio</h2>
 								</header>
 								<p>
-									Phasellus enim sapien, blandit ullamcorper elementum eu, condimentum eu elit.
-									Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia
-									luctus elit eget interdum.
+									These are past projects that I've worked on. Click on the picture for descriptions and links.
 								</p>
 								<section>
 									<div class="row">
 										<div class="4u">
-											<a href="#" class="image fit"><img src="images/pic01.jpg" alt=""></a>
+											<!-- <label class="btn" for="modal-1">Show me modal with a cat</label> -->
+											<label href="#" for="modal-1" class="image fit"><img src="images/pic01.jpg" alt=""></label>
 										</div>
+										<input class="modal-state" id="modal-1" type="checkbox" />
+										<div class="modal">
+											<label class="modal__bg" for="modal-1"></label>
+											<div class="modal__inner">
+												<label class="modal__close" for="modal-1"></label>
+												<h2>Smart Shopper!</h2>
+												<p>Description and links</p>
+												<a href="https://github.com/MikeyGuru/SmartShopper">View Source Code</a><br>
+												<a href="http://vimeo.com/114916653">Watch Video</a>
+
+
+											</div>
+										</div>
+
+
 										<div class="4u">
 											<a href="#" class="image fit"><img src="images/pic02.jpg" alt=""></a>
 										</div>
@@ -86,7 +101,7 @@
 											<a href="#" class="image fit"><img src="images/pic06.jpg" alt=""></a>
 										</div>
 									</div>
-									<div class="row">
+									<!-- <div class="row">
 										<div class="4u">
 											<a href="#" class="image fit"><img src="images/pic07.jpg" alt=""></a>
 										</div>
@@ -96,8 +111,8 @@
 										<div class="4u">
 											<a href="#" class="image fit"><img src="images/pic09.jpg" alt=""></a>
 										</div>
-									</div>
-									<div class="row">
+									</div> -->
+									<!-- <div class="row">
 										<div class="4u">
 											<a href="#" class="image fit"><img src="images/pic10.jpg" alt=""></a>
 										</div>
@@ -107,7 +122,7 @@
 										<div class="4u">
 											<a href="#" class="image fit"><img src="images/pic12.jpg" alt=""></a>
 										</div>
-									</div>
+									</div> -->
 								</section>
 							</article>
 
@@ -116,29 +131,16 @@
 								<header>
 									<h2>Contact Me</h2>
 								</header>
-								<form action="contact.php" method="post">
+								<form enctype="text/plain" action="mailto:mike19harris@gmail.com" method="post">
 									<div>
+
 										<div class="row">
 											<div class="6u">
-												<input type="text" name="name" placeholder="Name" />
+												<p>mike19harris@gmail.com </p>
+												<input type="submit" value="Send Email" />
 											</div>
 											<div class="6u">
-												<input type="text" name="email" placeholder="Email" />
-											</div>
-										</div>
-										<div class="row">
-											<div class="12u">
-												<input type="text" name="subject" placeholder="Subject" />
-											</div>
-										</div>
-										<div class="row">
-											<div class="12u">
-												<textarea name="message" placeholder="Message" rows="8"></textarea>
-											</div>
-										</div>
-										<div class="row">
-											<div class="12u">
-												<input type="submit" value="Send Message" />
+												<p>202.213.5029</p>
 											</div>
 										</div>
 									</div>
@@ -150,7 +152,8 @@
 				<!-- Footer -->
 					<div id="footer">
 						<ul class="copyright">
-							<li>&copy; Mike Harris.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							<li>&copy; Mike Harris</li>
+							<!-- <li>Design: <a href="http://html5up.net">HTML5 UP</a></li> -->
 						</ul>
 					</div>
 
