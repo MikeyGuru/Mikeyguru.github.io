@@ -2,6 +2,16 @@
 @import url('http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic');
 @import url('font-awesome.min.css');
 
+
+.imagewrapper p {
+	position:relative;
+	bottom:120px;
+	visibility:hidden;
+	color:white;
+	background-color:black;
+	text-align:center;
+}
+
 /*
 	Astral by HTML5 UP
 	html5up.net | @n33co
