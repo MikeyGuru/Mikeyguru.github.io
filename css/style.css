@@ -5,7 +5,7 @@
 
 .imagewrapper p {
 	position:relative;
-	bottom:120px;
+	top:1px;
 	visibility:hidden;
 	color:white;
 	background-color:black;
